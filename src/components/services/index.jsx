@@ -3,11 +3,12 @@ import { FaCode, FaShopify } from "react-icons/fa6"
 import { GrOptimize } from "react-icons/gr"
 import { LuMonitorSmartphone } from "react-icons/lu"
 import { MdOutlineContentCopy, MdOutlineDesignServices } from "react-icons/md"
+import { EMAIL } from "../../../data"
 
 const Services = () => {
     const [copied, setCopied] = useState(false);
     const handleCopy = () => {
-        const text = "jorabekmuhammadov7@gmail.com";
+        const text = EMAIL;
         navigator.clipboard.writeText(text);
         setCopied(true);
     };

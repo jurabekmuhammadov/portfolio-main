@@ -2,7 +2,7 @@ import { useState } from "react"
 import { BsDownload, BsSend } from "react-icons/bs"
 import { CgClose } from "react-icons/cg"
 import { MdOutlineMenuOpen } from "react-icons/md"
-import { navItems } from "../../../data"
+import { navItems, TELEGRAM } from "../../../data"
 import { motion } from 'framer-motion';
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
 
           <div className="flex items-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2 text-xs sm:text-sm">
-              <a href="https://t.me/notjustdev" target="_blank" className="sm:font-medium hidden min-[400px]:flex items-center gap-2 px-3 py-1.5 lg:py-2 rounded-full bg-inherit text-black transition hover:bg-black hover:text-white">
+              <a href={TELEGRAM} target="_blank" className="sm:font-medium hidden min-[400px]:flex items-center gap-2 px-3 py-1.5 lg:py-2 rounded-full bg-inherit text-black transition hover:bg-black hover:text-white">
                 Hire me
                 <BsSend className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>

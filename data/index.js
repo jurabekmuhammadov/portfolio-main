@@ -1,3 +1,10 @@
+export const TELEGRAM = "https://t.me/j_muhammadov";
+export const EMAIL = "jorabekmuhammadov7@gmail.com";
+export const GITHUB = "https://github.com/jurabekmuhammadov";
+export const LINKEDIN = "https://www.linkedin.com/in/jurabek-muhammadov-159093275";
+export const X = "https://x.com/jm_coder";
+export const TELEPHONE = "+998990990754";
+
 export const navItems = [
     {
         name: "About",

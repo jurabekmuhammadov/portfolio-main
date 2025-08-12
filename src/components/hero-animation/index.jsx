@@ -3,6 +3,7 @@ import { FaArrowRightLong, FaGithub, FaLinkedin, FaTelegram, FaXTwitter } from '
 import { GrLocation } from 'react-icons/gr';
 import { Typing } from '../typing';
 import { SiGmail } from 'react-icons/si';
+import { EMAIL, GITHUB, LINKEDIN, X } from '../../../data/index'
 
 export const H1Animation = () => {
     const textVariants = {
@@ -78,7 +79,7 @@ export const ButtonAnimation = () => {
             transition={{ duration: 1.5, ease: 'anticipate' }}
         >
             <button className="flex items-center gap-2 border border-black text-xs sm:text-sm lg:text-base px-3 py-1.5 lg:py-2 rounded-full bg-inherit text-black transition hover:bg-black hover:text-white">
-                <a href="https://www.linkedin.com/in/jurabek-muhammadov-159093275" target="_blank">More about Me</a>
+                <a href={LINKEDIN} target="_blank">More about Me</a>
                 <FaArrowRightLong />
             </button>
         </motion.div>
@@ -155,7 +156,7 @@ export const SocialsAnimation = () => {
                 variants={variant1}
                 transition={{ duration: 1.2, ease: 'backIn' }}
             >
-                <a href="mailto:jorabekmuhammadov7@gmail.com" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href={`mailto:${EMAIL}`} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <SiGmail size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     Email
                 </a>
@@ -166,7 +167,7 @@ export const SocialsAnimation = () => {
                 variants={variant2}
                 transition={{ duration: 1.3, ease: 'backIn' }}
             >
-                <a href="https://t.me/j-muhammadov" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href="https://t.me/j_muhammadov" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <FaTelegram size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     Telegram
                 </a>
@@ -177,7 +178,7 @@ export const SocialsAnimation = () => {
                 variants={variant3}
                 transition={{ duration: 1.4, ease: 'backIn' }}
             >
-                <a href="https://github.com/jurabekmuhammadov" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href={GITHUB} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <FaGithub size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     Github
                 </a>
@@ -188,7 +189,7 @@ export const SocialsAnimation = () => {
                 variants={variant4}
                 transition={{ duration: 1.5, ease: 'backIn' }}
             >
-                <a href="https://www.linkedin.com/in/jurabek-muhammadov-159093275" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href={LINKEDIN} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <FaLinkedin size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     Linkedin
                 </a>
@@ -199,7 +200,7 @@ export const SocialsAnimation = () => {
                 variants={variant5}
                 transition={{ duration: 1.6, ease: 'backIn' }}
             >
-                <a href="https://www.linkedin.com/in/jurabek-muhammadov-159093275" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href={X} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <FaXTwitter size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     X
                 </a>
