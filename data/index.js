@@ -210,14 +210,22 @@ export const works = [
             },
             {
                 id: 2,
-                icon: "/react.svg"
+                icon: "/html.png"
             },
             {
                 id: 3,
-                icon: "/tailwind.webp"
+                icon: "/css.png"
             },
             {
                 id: 4,
+                icon: "/react.svg"
+            },
+            {
+                id: 5,
+                icon: "/tailwind.webp"
+            },
+            {
+                id: 6,
                 icon: "/api.svg"
             },
         ]

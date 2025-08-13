@@ -33,8 +33,8 @@ const ProjectCard = ({ img, name, category, description, github, live, tech_stac
             </a>
             <p className='text-gray-500 text-xs sm:text-sm md:text-base'>{category}</p>
             <div className='flex flex-col gap-1'>
-                <p className='text-gray-900 font-semibold text-sm md::text-base'>{name}</p>
-                <p className='text-gray-600 line-clamp-1 text-xs sm:text-sm md::text-base'>{description}</p>
+                <a href={live} className='text-gray-900 hover:underline font-semibold text-sm md::text-base'>{name}</a>
+                <p className='text-gray-600 line-clamp-2 text-xs sm:text-sm md::text-base'>{description}</p>
             </div>
             <div className='flex items-center gap-1'>
                 {tech_stacks.map((item) => (
