@@ -10,14 +10,14 @@ import { useEffect, useState } from 'react';
 
 export default function OppositeContentTimeline() {
     const matches = useMediaQuery('(max-width:600px)');
-    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left' });
+    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left', item3: "fade-right" });
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 600) {
-                setAos({ item1: 'fade-up', item2: 'fade-up' });
+                setAos({ item1: 'fade-up', item2: 'fade-up', item3: "fade-up" });
             } else {
-                setAos({ item1: 'fade-right', item2: 'fade-left' });
+                setAos({ item1: 'fade-right', item2: 'fade-left', item3: 'fade-right' });
             }
         };
 
@@ -35,38 +35,58 @@ export default function OppositeContentTimeline() {
             sx={{ padding: 0 }}>
             <TimelineItem className='' data-aos={aos.item1}>
                 <TimelineOppositeContent className='hidden min-[600px]:block'>
-                    <p className="text-xs sm:text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">September, 2023 - May, 2027</p>
+                    <p className="text-xs sm:text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">September, 2024 - May, 2028</p>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot className='' />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent className='flex flex-col gap-1.5'>
-                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Central Asian University</h1>
-                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900'>Bachelor of Engineering - BE, Computer Science</p>
+                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Kimyo International University In Tashkent</h1>
+                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900 underline'>BE - Information System Engineering</p>
                     <p className="text-xs leading-5 sm:text-body-4 mt-2 font-normal text-metal-600">
                         Focused on comprehensive computer science education, encompassing software development, data structures, algorithms, and theoretical foundations. Engaged in projects and research to foster practical and analytical skills.
                     </p>
-                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">September, 2023 - May, 2027</p>
+                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">Sep, 2024 - May, 2028</p>
                 </TimelineContent>
             </TimelineItem>
+
             <TimelineItem className='' data-aos={aos.item2}>
                 <TimelineOppositeContent className='hidden min-[600px]:block'>
-                    <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">October, 2023 - May, 2024</p>
+                    <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">March, 2024 - January, 2025</p>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot className='' />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent className='flex flex-col gap-1.5'>
-                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Najot Ta&apos;lim, Tashkent</h1>
-                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900'>Standart, Frontend</p>
+                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Premium Meat Products LLC, Tashkent</h1>
+                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900 underline'>Merchandiser</p>
                     <p className="text-xs leading-5 sm:text-body-4 mt-2 font-normal text-metal-600">
-                        Completed a comprehensive frontend development program, mastering key technologies such as HTML, CSS, and JavaScript. Developed practical skills through intensive hands-on projects and collaborative work, laying a strong foundation for a career in web development.
+                        Worked at this company for about 1 year and gained a lot of knowledge and skills for myself. My main role at this company was as a retail sales specialist responsible for maximizing product sales by ensuring that products were visible, well-stocked, and displayed in an attractive manner to customers.
                     </p>
-                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">October, 2023 - May, 2024</p>
+                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">Mar, 2024 - Jan, 2025</p>
                 </TimelineContent>
             </TimelineItem>
+
+            <TimelineItem className='' data-aos={aos.item3}>
+                <TimelineOppositeContent className='hidden min-[600px]:block'>
+                    <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">February, 2025 - September, 2025</p>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot className='' />
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent className='flex flex-col gap-1.5'>
+                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Cheese Day LLC, Tashkent</h1>
+                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900 underline'>Price Monitoring Specialist</p>
+                    <p className="text-xs leading-5 sm:text-body-4 mt-2 font-normal text-metal-600">
+                        Monitored and analyzed daily product prices to maintain accurate and up-to-date market data. Improved pricing reports, enabling management to make better data-driven decisions. Identified competitor pricing strategies and market trends, supporting more competitive pricing. Developed strong skills in Excel, data analysis, and reporting, contributing to team efficiency.
+                    </p>
+                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">Feb, 2025 - Sep, 2025</p>
+                </TimelineContent>
+            </TimelineItem>
+
         </Timeline>
     );
 }

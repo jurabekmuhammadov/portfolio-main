@@ -11,7 +11,7 @@ const Footer = () => {
             <div data-aos="fade-right" className="flex items-center lg:items-start flex-col gap-8 w-full lg:w-auto">
               <h1 className="text-white text-center lg:text-left text-3xl sm:text-4xl flex flex-col gap-1 lg:gap-2">Have an idea? <span className="underline">Let&apos;s talk about it</span></h1>
               <div className="flex flex-col-reverse lg:flex-row items-center gap-5">
-                <img src="/telegram-qr-code.PNG" alt="my telegram qrcode" className="w-40 hidden lg:block rounded-lg" />
+                <img src="/telegram-qr.jpg" alt="my telegram qrcode" className="w-40 hidden lg:block rounded-lg" />
                 <div className="flex flex-row items-center lg:items-start lg:flex-col gap-4 lg:gap-2">
                   <a target="" href="tel:+998990990754" className="flex items-center gap-1 font-medium text-gray-400 hover:text-white text-xs sm:text-sm md:text-base lg:text-lg">
                     <BsTelephone size={20} />
@@ -42,9 +42,8 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-1 sm:flex-row items-center justify-between">
             <p className="sm:text-gray-400 text-sm underline sm:no-underline text-white">Made by Jurabek Muhammadov</p>
-            <p className="text-gray-400 text-sm flex items-center gap-1"><BiCopyright /> Copyright 2024. All rights Reserved.</p>
+            <p className="text-gray-400 text-sm flex items-center gap-1"><BiCopyright /> Copyright 2025. All rights Reserved.</p>
           </div>
-          <img src="/qr-code.png" alt="my telegram qrcode" className="m-auto w-40 lg:hidden" />
         </div>
       </div>
     </footer>

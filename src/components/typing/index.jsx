@@ -4,7 +4,7 @@ export const Typing = () => {
     return (
         <TypeAnimation
             sequence={[
-                "Jurabek Muhammadov",
+                "Jurabek Mukhammadov",
                 2000,
                 "Frontend Developer",
                 2000,

@@ -1,4 +1,4 @@
-export const TELEGRAM = "https://t.me/j_muhammadov";
+export const TELEGRAM = "https://t.me/j_mukhammadov";
 export const EMAIL = "jorabekmuhammadov7@gmail.com";
 export const GITHUB = "https://github.com/jurabekmuhammadov";
 export const LINKEDIN = "https://www.linkedin.com/in/jurabek-muhammadov-159093275";

@@ -3,7 +3,7 @@ import { FaArrowRightLong, FaGithub, FaLinkedin, FaTelegram, FaXTwitter } from '
 import { GrLocation } from 'react-icons/gr';
 import { Typing } from '../typing';
 import { SiGmail } from 'react-icons/si';
-import { EMAIL, GITHUB, LINKEDIN, X } from '../../../data/index'
+import { EMAIL, GITHUB, LINKEDIN, TELEGRAM, X } from '../../../data/index'
 
 export const H1Animation = () => {
     const textVariants = {
@@ -167,7 +167,7 @@ export const SocialsAnimation = () => {
                 variants={variant2}
                 transition={{ duration: 1.3, ease: 'backIn' }}
             >
-                <a href="https://t.me/j_muhammadov" target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
+                <a href={TELEGRAM} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
                     <FaTelegram size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
                     Telegram
                 </a>
