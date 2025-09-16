@@ -99,7 +99,9 @@ export const AvatarAnimation = () => {
             variants={textVariants}
             transition={{ duration: 1, ease: 'anticipate' }}
         >
-            <img src="/avatar.webp" alt="avatar" className="w-44 h-44 sm:h-48 sm:w-48 lg:h-56 lg:w-56" />
+            <div className="rounded-full overflow-hidden w-44 h-44 sm:h-48 sm:w-48 lg:h-56 lg:w-56">
+                 <img src="/avatar.jpg" alt="avatar" className="w-full h-full object-cover" />
+            </div>
 
         </motion.div>
     );

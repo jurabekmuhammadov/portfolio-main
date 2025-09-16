@@ -8,6 +8,8 @@ export const Typing = () => {
                 2000,
                 "Frontend Developer",
                 2000,
+                "Software Engineer",
+                2000,
             ]}
             wrapper="p"
             speed={30}

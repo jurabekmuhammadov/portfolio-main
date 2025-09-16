@@ -30,7 +30,7 @@ const TechSkills = () => {
                                     </div>
                                 ))
                                 : (
-                                    techSkills.slice(0, 10).map((item, i) => (
+                                    techSkills.slice(0, 15).map((item, i) => (
                                         <div key={i} className='w-full xl:w-1/6 flex items-center gap-3 border rounded-xl p-2 md:p-4 transition hover:bg-black hover:bg-opacity-10'>
                                             <div className=' min-[400px]:flex w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center'>
                                                 <img src={item.img} alt={item.name} className='w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 xl:w-full xl:h-full object-cover rounded-md sm:rounded-lg' />

@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-1 sm:flex-row items-center justify-between">
-            <p className="sm:text-gray-400 text-sm underline sm:no-underline text-white">Made by Jurabek Muhammadov</p>
+            <p className="sm:text-gray-400 text-sm underline sm:no-underline text-white">Made by Jurabek Mukhammadov</p>
             <p className="text-gray-400 text-sm flex items-center gap-1"><BiCopyright /> Copyright 2025. All rights Reserved.</p>
           </div>
         </div>

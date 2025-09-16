@@ -40,18 +40,6 @@ export const techSkills = [
         level: "Experienced",
     },
     {
-        id: 2,
-        name: "CSS",
-        img: "/css.png",
-        level: "Experienced",
-    },
-    {
-        id: 3,
-        name: "SASS",
-        img: "/sass.png",
-        level: "Experienced",
-    },
-    {
         id: 4,
         name: "Javascript",
         img: "/js.png",
@@ -62,6 +50,60 @@ export const techSkills = [
         name: "Typescript",
         img: "/ts.svg",
         level: "Intermediate",
+    },
+       {
+        id: 25,
+        name: "C++",
+        img: "/cpp.svg",
+        level: "Basic",
+    },
+    {
+        id: 26,
+        name: "C#",
+        img: "/csharp.png",
+        level: "Basic",
+    },
+    {
+        id: 27,
+        name: "Java",
+        img: "/java.svg",
+        level: "Basic",
+    },
+    {
+        id: 28,
+        name: "PostgreSQL",
+        img: "/postgresql.svg",
+        level: "Intermadiate",
+    },
+    {
+        id: 29,
+        name: "SQL",
+        img: "/sql.png",
+        level: "Intermadiate",
+    },
+        {
+        id: 17,
+        name: "Git",
+        img: "/git.png",
+        level: "Basic",
+    },
+    {
+        id: 18,
+        name: "GitHub",
+        img: "/github.svg",
+        level: "Basic",
+    },
+        {
+        id: 2,
+        name: "CSS",
+        img: "/css.png",
+        level: "Experienced",
+    },
+    {
+        id: 3,
+        name: "SASS",
+        img: "/sass.png",
+        level: "Experienced",
     },
     {
         id: 6,
@@ -130,18 +172,6 @@ export const techSkills = [
         level: "Intermediate",
     },
     {
-        id: 17,
-        name: "Git",
-        img: "/git.png",
-        level: "Basic",
-    },
-    {
-        id: 18,
-        name: "GitHub",
-        img: "/github.svg",
-        level: "Basic",
-    },
-    {
         id: 19,
         name: "Figma",
         img: "/figma.png",
@@ -164,6 +194,48 @@ export const techSkills = [
         name: "Netlify",
         img: "/netlify.svg",
         level: "Intermediate",
+    },
+    {
+        id: 23,
+        name: "Adobe XD",
+        img: "/adobe-xd.png",
+        level: "Basic",
+    },
+        {
+        id: 34,
+        name: "Zustand",
+        img: "/zustand.png",
+        level: "Intermadiate",
+    },
+    {
+        id: 30,
+        name: "Redux",
+        img: "/redux.png",
+        level: "Intermadiate",
+    },
+    {
+        id: 31,
+        name: "VS Code",
+        img: "/visual-studio-code.png",
+        level: "Intermadiate",
+    },
+    {
+        id: 32,
+        name: "Visual Studio",
+        img: "/visual-studio.png",
+        level: "Intermadiate",
+    },
+    {
+        id: 33,
+        name: "Webstorm",
+        img: "/webstorm.png",
+        level: "Intermadiate",
+    },
+        {
+        id: 24,
+        name: "Code::Blocks",
+        img: "/code-blocks.webp",
+        level: "Intermadiate",
     },
 ];
 
