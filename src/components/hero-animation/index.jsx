@@ -196,17 +196,6 @@ export const SocialsAnimation = () => {
                     Linkedin
                 </a>
             </motion.div>
-            <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={variant5}
-                transition={{ duration: 1.6, ease: 'backIn' }}
-            >
-                <a href={X} target="_blank" className="flex items-center gap-2 lg:gap-3 transition hover:text-black hover:underline">
-                    <FaXTwitter size={25} className="h-6 w-6 sm:h-7 sm:w-7" />
-                    X
-                </a>
-            </motion.div>
         </div>
     );
 };
