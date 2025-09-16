@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 export default function OppositeContentTimeline() {
     const matches = useMediaQuery('(max-width:600px)');
-    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left', item3: "fade-right" });
+    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left', item3: "fade-right", item3: "fade-left" });
 
     useEffect(() => {
         const handleResize = () => {
@@ -53,6 +53,24 @@ export default function OppositeContentTimeline() {
 
             <TimelineItem className='' data-aos={aos.item2}>
                 <TimelineOppositeContent className='hidden min-[600px]:block'>
+                    <p className="text-xs sm:text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">February, 2023 - August, 2023</p>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot className='' />
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent className='flex flex-col gap-1.5'>
+                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Najot Ta'lim In Tashkent</h1>
+                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900 underline'>Frontend Web Development</p>
+                    <p className="text-xs leading-5 sm:text-body-4 mt-2 font-normal text-metal-600">
+                        During my studies at this training center in the field of Frontend Development, I gained not only in-depth knowledge of modern technologies but also developed essential soft skills. I learned to work with programming languages, frameworks, and libraries, while also improving my problem-solving abilities, teamwork, and time management. This experience not only strengthened my technical expertise but also built a solid foundation for my professional growth.
+                    </p>
+                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">Feb, 2023 - Aug, 2023</p>
+                </TimelineContent>
+            </TimelineItem>
+
+            <TimelineItem className='' data-aos={aos.item3}>
+                <TimelineOppositeContent className='hidden min-[600px]:block'>
                     <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">March, 2024 - January, 2025</p>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -69,7 +87,7 @@ export default function OppositeContentTimeline() {
                 </TimelineContent>
             </TimelineItem>
 
-            <TimelineItem className='' data-aos={aos.item3}>
+            <TimelineItem className='' data-aos={aos.item4}>
                 <TimelineOppositeContent className='hidden min-[600px]:block'>
                     <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">February, 2025 - September, 2025</p>
                 </TimelineOppositeContent>
