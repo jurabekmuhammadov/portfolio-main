@@ -46,7 +46,7 @@ const Header = () => {
                 Hire me
                 <BsSend className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
-              <a href="/cv-2025.pdf" download className="sm:font-medium flex items-center gap-2 px-3 py-1.5 lg:py-2 rounded-full bg-black text-white transition hover:bg-black hover:bg-opacity-85">
+              <a href="/cv-19.09.pdf" download className="sm:font-medium flex items-center gap-2 px-3 py-1.5 lg:py-2 rounded-full bg-black text-white transition hover:bg-black hover:bg-opacity-85">
                 <span className="hidden lg:block">Download</span> <span>CV</span>
                 <BsDownload className="w-4 h-4 sm:w-5 sm:h-5"/>
               </a>

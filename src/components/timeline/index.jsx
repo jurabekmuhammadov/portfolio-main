@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 export default function OppositeContentTimeline() {
     const matches = useMediaQuery('(max-width:600px)');
-    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left', item3: "fade-right", item3: "fade-left" });
+    const [aos, setAos] = useState({ item1: 'fade-right', item2: 'fade-left', item3: "fade-right" });
 
     useEffect(() => {
         const handleResize = () => {
@@ -70,24 +70,6 @@ export default function OppositeContentTimeline() {
             </TimelineItem>
 
             <TimelineItem className='' data-aos={aos.item3}>
-                <TimelineOppositeContent className='hidden min-[600px]:block'>
-                    <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">March, 2024 - January, 2025</p>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineDot className='' />
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent className='flex flex-col gap-1.5'>
-                    <h1 className="text-sm sm:text-base md:text-xl font-semibold text-gray-900">Premium Meat Products LLC, Tashkent</h1>
-                    <p className='text-sm sm:text-body-4 lg:text-body-3 font-medium text-gray-900 underline'>Merchandiser</p>
-                    <p className="text-xs leading-5 sm:text-body-4 mt-2 font-normal text-metal-600">
-                        Worked at this company for about 1 year and gained a lot of knowledge and skills for myself. My main role at this company was as a retail sales specialist responsible for maximizing product sales by ensuring that products were visible, well-stocked, and displayed in an attractive manner to customers.
-                    </p>
-                    <p className="block min-[600px]:hidden text-sm md:text-body-3 font-medium leading-[1.4] text-gray-900">Mar, 2024 - Jan, 2025</p>
-                </TimelineContent>
-            </TimelineItem>
-
-            <TimelineItem className='' data-aos={aos.item4}>
                 <TimelineOppositeContent className='hidden min-[600px]:block'>
                     <p className="text-xs sm:text-sm md:text-base lg:text-body-3 font-medium leading-[1.4] text-gray-900">February, 2025 - September, 2025</p>
                 </TimelineOppositeContent>
