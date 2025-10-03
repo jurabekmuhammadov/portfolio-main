@@ -1,7 +1,7 @@
-export const TELEGRAM = "https://t.me/j_mukhammadov";
+export const TELEGRAM = "https://t.me/jurabek_7";
 export const EMAIL = "jorabekmuhammadov7@gmail.com";
 export const GITHUB = "https://github.com/jurabekmuhammadov";
-export const LINKEDIN = "https://www.linkedin.com/in/jurabek-muhammadov-159093275";
+export const LINKEDIN = "https://www.linkedin.com/in/jurabek-mukhammadov-159093275";
 export const X = "https://x.com/jm_coder";
 export const TELEPHONE = "+998990990754";
 
